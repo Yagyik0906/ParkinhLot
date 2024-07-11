@@ -4,5 +4,5 @@ import Models.ParkingLot;
 
 public class ParkingLotController {
 
-    public ParkingLot startParkingArea(){ }
+    public ParkingLot startParkingArea(){ return null;}
 }

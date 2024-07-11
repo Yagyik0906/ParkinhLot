@@ -4,21 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ed23699-2acd-4417-84c0-830d0ab7e967" name="Changes" comment="commit pojo classes">
-      <change afterPath="$PROJECT_DIR$/src/Controllers/ParkingLotController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/BaseModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/SlotAssignmentStrategy.java" afterDir="false" />
+    <list default="true" id="8ed23699-2acd-4417-84c0-830d0ab7e967" name="Changes" comment="corrected pojo classes">
+      <change afterPath="$PROJECT_DIR$/src/Controllers/TicketController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dtos/IssueTicketRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dtos/IssueTicketResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Models/AllowedVehicleTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/VehicleType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Models/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Bill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Models/Floor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Floor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Models/Gate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Gate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Models/ParkingArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/ParkingLot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Models/ParkingAreaStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/ParkingLotStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Models/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Payment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Models/Slot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Slot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Models/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Ticket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Models/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -90,11 +80,20 @@
       <option name="project" value="LOCAL" />
       <updated>1720719990422</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="corrected pojo classes">
+      <option name="closed" value="true" />
+      <created>1720722733741</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720722733741</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit pojo classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit pojo classes" />
+    <MESSAGE value="corrected pojo classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="corrected pojo classes" />
   </component>
 </project>
