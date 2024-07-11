@@ -1,18 +1,9 @@
 package Models;
 
-public class Vehicle {
-    private int vehicleId;
+public class Vehicle extends BaseModel{
     private String vehicleNo;
-    private AllowedVehicleTypes vehicleTye;
+    private VehicleType vehicleTye;
     private String ownerName;
-
-    public int getVehicleId() {
-        return vehicleId;
-    }
-
-    public void setVehicleId(int vehicleId) {
-        this.vehicleId = vehicleId;
-    }
 
     public String getVehicleNo() {
         return vehicleNo;
@@ -22,11 +13,11 @@ public class Vehicle {
         this.vehicleNo = vehicleNo;
     }
 
-    public AllowedVehicleTypes getVehicleTye() {
+    public VehicleType getVehicleTye() {
         return vehicleTye;
     }
 
-    public void setVehicleTye(AllowedVehicleTypes vehicleTye) {
+    public void setVehicleTye(VehicleType vehicleTye) {
         this.vehicleTye = vehicleTye;
     }
 

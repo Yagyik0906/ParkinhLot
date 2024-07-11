@@ -2,29 +2,29 @@ package Models;
 
 import java.util.Date;
 
-public class Payment {
+public class Payment extends BaseModel {
 
-    private int paymentId;
-    private long referenceNo;
+    private String referenceId;
     private double amount;
     private Mode mode;
     private Date currenDate;
     private PaymentStatus paymentStatus;
+    Bill bill;
 
-    public int getPaymentId() {
-        return paymentId;
+    public Bill getBill() {
+        return bill;
     }
 
-    public void setPaymentId(int paymentId) {
-        this.paymentId = paymentId;
+    public void setBill(Bill bill) {
+        this.bill = bill;
     }
 
-    public long getReferenceNo() {
-        return referenceNo;
+    public String getReferenceId() {
+        return referenceId;
     }
 
-    public void setReferenceNo(long referenceNo) {
-        this.referenceNo = referenceNo;
+    public void setReferenceId(String referenceId) {
+        this.referenceId = referenceId;
     }
 
     public double getAmount() {

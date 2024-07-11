@@ -1,6 +1,6 @@
 package Models;
 
-public enum ParkingAreaStatus {
+public enum ParkingLotStatus {
     FULL,
     OPEN,
     CLOSED

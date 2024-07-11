@@ -3,20 +3,20 @@ package Models;
 import java.util.Date;
 import java.util.List;
 
-public class Bill {
-    private int billId;
+public class Bill extends BaseModel{
     private Date exitTime;
+    Ticket token;
     private double amount;
     private Gate exitGate;
     private BillStatus billStatus;
     List<Payment> paymentMethods;
 
-    public int getBillId() {
-        return billId;
+    public Ticket getToken() {
+        return token;
     }
 
-    public void setBillId(int billId) {
-        this.billId = billId;
+    public void setToken(Ticket token) {
+        this.token = token;
     }
 
     public Date getExitTime() {

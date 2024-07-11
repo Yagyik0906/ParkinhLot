@@ -4,36 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ed23699-2acd-4417-84c0-830d0ab7e967" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ParkingLot.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/AllowedVehicleTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/Bill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/BillStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/Floor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/FloorStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/Gate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/GateStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/GateType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/Mode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/ParkingArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/ParkingAreaStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/PaymentStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/Slot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/SlotStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/FeeCalculationStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/SlotSelectionStrategy.java" afterDir="false" />
+    <list default="true" id="8ed23699-2acd-4417-84c0-830d0ab7e967" name="Changes" comment="commit pojo classes">
+      <change afterPath="$PROJECT_DIR$/src/Controllers/ParkingLotController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/BaseModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/SlotAssignmentStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/AllowedVehicleTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/VehicleType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Bill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/Floor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Floor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/Gate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Gate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/ParkingArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/ParkingLot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/ParkingAreaStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/ParkingLotStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/Slot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Slot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +82,19 @@
       <option name="presentableId" value="Default" />
       <updated>1720706399472</updated>
     </task>
+    <task id="LOCAL-00001" summary="commit pojo classes">
+      <option name="closed" value="true" />
+      <created>1720719990422</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720719990422</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit pojo classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit pojo classes" />
   </component>
 </project>

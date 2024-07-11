@@ -2,27 +2,19 @@ package Models;
 
 import java.util.Date;
 
-public class Ticket {
-    private int ticketId;
-    private int tokenNo;
+public class Ticket extends BaseModel{
+    private String tokenNo;
     private Date entryTime;
     private Slot slot;
     private Vehicle vehicle;
     private Gate entryGate;
 
-    public int getTicketId() {
-        return ticketId;
-    }
 
-    public void setTicketId(int ticketId) {
-        this.ticketId = ticketId;
-    }
-
-    public int getTokenNo() {
+    public String getTokenNo() {
         return tokenNo;
     }
 
-    public void setTokenNo(int tokenNo) {
+    public void setTokenNo(String tokenNo) {
         this.tokenNo = tokenNo;
     }
 

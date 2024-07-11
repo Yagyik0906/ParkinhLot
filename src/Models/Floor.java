@@ -3,21 +3,20 @@ package Models;
 import java.util.List;
 import java.util.Map;
 
-public class Floor {
+public class Floor extends BaseModel {
 
-    private int id;
     List<Slot> slots;
     int floorNo;
-    Map<AllowedVehicleTypes,Integer> specificCapacity;
+    List<VehicleType> allowedVehicles;
     private FloorStatus floorStatus;
-    List<AllowedVehicleTypes> allowedVehicleTypes;
+    List<VehicleType> allowedVehicleTypes;
 
-    public int getId() {
-        return id;
+    public List<VehicleType> getAllowedVehicles() {
+        return allowedVehicles;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setAllowedVehicles(List<VehicleType> allowedVehicles) {
+        this.allowedVehicles = allowedVehicles;
     }
 
     public List<Slot> getSlots() {
@@ -36,13 +35,6 @@ public class Floor {
         this.floorNo = floorNo;
     }
 
-    public Map<AllowedVehicleTypes, Integer> getSpecificCapacity() {
-        return specificCapacity;
-    }
-
-    public void setSpecificCapacity(Map<AllowedVehicleTypes, Integer> specificCapacity) {
-        this.specificCapacity = specificCapacity;
-    }
 
     public FloorStatus getFloorStatus() {
         return floorStatus;
@@ -52,11 +44,11 @@ public class Floor {
         this.floorStatus = floorStatus;
     }
 
-    public List<AllowedVehicleTypes> getAllowedVehicleTypes() {
+    public List<VehicleType> getAllowedVehicleTypes() {
         return allowedVehicleTypes;
     }
 
-    public void setAllowedVehicleTypes(List<AllowedVehicleTypes> allowedVehicleTypes) {
+    public void setAllowedVehicleTypes(List<VehicleType> allowedVehicleTypes) {
         this.allowedVehicleTypes = allowedVehicleTypes;
     }
 }

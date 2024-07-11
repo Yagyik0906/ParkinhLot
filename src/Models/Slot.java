@@ -1,24 +1,25 @@
 package Models;
 
-public class Slot {
-    int slotId;
-    AllowedVehicleTypes allowedVehicleType;
+public class Slot extends BaseModel{
+    VehicleType allowedVehicleType;
     SlotStatus slotStatus;
+
+    Floor parkingFloor;
     int slotNo;
 
-    public int getSlotId() {
-        return slotId;
+    public Floor getParkingFloor() {
+        return parkingFloor;
     }
 
-    public void setSlotId(int slotId) {
-        this.slotId = slotId;
+    public void setParkingFloor(Floor parkingFloor) {
+        this.parkingFloor = parkingFloor;
     }
 
-    public AllowedVehicleTypes getAllowedVehicleType() {
+    public VehicleType getAllowedVehicleType() {
         return allowedVehicleType;
     }
 
-    public void setAllowedVehicleType(AllowedVehicleTypes allowedVehicleType) {
+    public void setAllowedVehicleType(VehicleType allowedVehicleType) {
         this.allowedVehicleType = allowedVehicleType;
     }
 
