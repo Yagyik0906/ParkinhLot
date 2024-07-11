@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8ed23699-2acd-4417-84c0-830d0ab7e967" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ParkingLot.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/AllowedVehicleTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/Bill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/BillStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/Floor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/FloorStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/Gate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/GateStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/GateType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/Mode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/ParkingArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/ParkingAreaStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/PaymentStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/Slot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/SlotStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/FeeCalculationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/SlotSelectionStrategy.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2j6TC4fKK4nfOKo4033on5NlOYf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/chinc/.vscode/Projects/ParkingLot/src"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "module"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Models" />
+      <recent name="Strategy" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\chinc\.vscode\Projects\ParkingLot\src" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8ed23699-2acd-4417-84c0-830d0ab7e967" name="Changes" comment="" />
+      <created>1720706399472</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720706399472</updated>
+    </task>
+    <servers />
+  </component>
+</project>
