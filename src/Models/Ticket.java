@@ -18,7 +18,7 @@ public class Ticket extends BaseModel{
         this.tokenNo = tokenNo;
     }
 
-    public Date getEntryTime() {
+    public Date getEntryTime(Date date) {
         return entryTime;
     }
 
